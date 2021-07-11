@@ -6,4 +6,6 @@ Notepad application with English dictionary for fixing single transposition erro
        <p align="center"> <i>Running program</i> </p>
 </p>
 
-Collaboration with @MehmetAnil
+## Collaboration
+
+- with [@MehmetAnil](https://github.com/MehmetAnil) 
