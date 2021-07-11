@@ -1,4 +1,4 @@
-## Program
+## Project
 
 Alarm program in Proteus using 8051 microcontroller, coded in C. 
 
