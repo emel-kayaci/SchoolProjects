@@ -1,6 +1,6 @@
 ## Formula Finder 
 <p align="center">
-       <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Exp-tree-ex-11.svg" width="400" height="400" align = center>
+       <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Exp-tree-ex-11.svg" width="300" height="300" align = center>
        <p align="center"> <i>Expression Tree</i> </p>
 </p>
 
