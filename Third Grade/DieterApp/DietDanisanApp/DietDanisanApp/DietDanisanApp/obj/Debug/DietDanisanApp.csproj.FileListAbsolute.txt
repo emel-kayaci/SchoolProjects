@@ -1,0 +1,166 @@
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe.config
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.pdb
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.loginForm.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.Properties.Resources.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.pdb
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserRegistrationForm.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianRegistrationForm.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserMainMenu.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianMainMenu.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdateInfo.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianUpdateInfo.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticians.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserContact.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianContact.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateDiet.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDietLists.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdatePhysicalinformation.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserAppointment.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserColorCode.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticianInformation.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserSettings.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianSettings.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianAppointment.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianDeleteDieters.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateExercise.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreatePrograms.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserExerciseProgram.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserPrograms.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.NumericTextBox.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.AlphaTextBox.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe.config
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.pdb
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.pdb
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll.config
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.AlphaTextBox.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianAppointment.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianContact.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateDiet.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateExercise.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreatePrograms.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianMainMenu.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianRegistrationForm.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianSettings.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianDeleteDieters.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianUpdateInfo.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.loginForm.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.NumericTextBox.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.Properties.Resources.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.Resources.DieticianPendingAppointment.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserAppointment.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserCalculateBMI.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserColorCode.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserContact.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticianInformation.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticians.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDietLists.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserExerciseProgram.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserMainMenu.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserPrograms.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserRegistrationForm.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserSettings.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdateInfo.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdatePhysicalinformation.resources
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.CopyComplete
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\WP\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.pdb
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.pdb
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll.config
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.CopyComplete
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianUpdateHealthInformation.resources
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.exe.config
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe.config
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.pdb
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.exe.config
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.pdb
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll.config
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.AlphaTextBox.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianAppointment.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianContact.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateDiet.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateExercise.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreatePrograms.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianMainMenu.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianRegistrationForm.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianSettings.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianDeleteDieters.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianUpdateHealthInformation.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianUpdateInfo.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.loginForm.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.NumericTextBox.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.Properties.Resources.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserAppointment.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserColorCode.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserContact.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticianInformation.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticians.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDietLists.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserExerciseProgram.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserMainMenu.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserPrograms.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserRegistrationForm.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserSettings.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdateInfo.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdatePhysicalInformation.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.CopyComplete
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.pdb
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe.config
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\DietDanisanApp.pdb
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\UserBMICalculator.exe.config
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.pdb
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\bin\Debug\InheritanceBaseForm.dll.config
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.AlphaTextBox.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianAppointment.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianContact.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateDiet.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreateExercise.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianCreatePrograms.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianMainMenu.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianRegistrationForm.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianSettings.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianDeleteDieters.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianUpdateHealthInformation.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.DieticianUpdateInfo.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.loginForm.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.NumericTextBox.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.Properties.Resources.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserAppointment.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserColorCode.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserContact.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticianInformation.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDieticians.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserDietLists.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserExerciseProgram.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserMainMenu.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserPrograms.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserRegistrationForm.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserSettings.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdateInfo.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.UserUpdatePhysicalInformation.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.csproj.CopyComplete
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.exe
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\DietDanisanApp\obj\Debug\DietDanisanApp.pdb

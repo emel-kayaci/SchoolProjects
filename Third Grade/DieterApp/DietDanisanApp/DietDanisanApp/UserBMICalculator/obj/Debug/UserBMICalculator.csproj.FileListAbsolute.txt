@@ -1,0 +1,42 @@
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.exe.config
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator_MarkupCompile.cache
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator_MarkupCompile.lref
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.g.resources
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.Properties.Resources.resources
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\BMICalculator.g.cs
+C:\Users\HP\Desktop\DietDanisanApp\UserBMICalculator\obj\Debug\BMICalculator.baml
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.exe.config
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\BMICalculator.g.cs
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator_MarkupCompile.cache
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator_MarkupCompile.lref
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\BMICalculator.baml
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.g.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.Properties.Resources.resources
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\WP Final\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.exe.config
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\bin\Debug\UserBMICalculator.pdb
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\BMICalculator.g.cs
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator_MarkupCompile.cache
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator_MarkupCompile.lref
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\BMICalculator.baml
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.g.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.Properties.Resources.resources
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.exe
+C:\Users\HP\Desktop\05180000087\DietDanisanApp\UserBMICalculator\obj\Debug\UserBMICalculator.pdb
