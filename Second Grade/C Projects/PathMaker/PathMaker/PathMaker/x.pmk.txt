@@ -1,0 +1,14 @@
+{	
+	make <anil>;
+	make <*/deneme/emel>;
+	go <*/deneme/emel>;
+}
+if <*> {
+	make <*/*/Anil/Anil1>;
+	make <PL>;
+}
+
+ifnot <PL> {
+	make <calismayacak>;
+}
+go <*/*>;
