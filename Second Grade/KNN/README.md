@@ -1,2 +1,3 @@
 # KNN
-KNN algoritmasının implementasyonu.
+
+Implementation of KNN algorithm.
