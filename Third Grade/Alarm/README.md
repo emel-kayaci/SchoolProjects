@@ -1,5 +1,11 @@
+## Program
+
+Alarm program in Proteus using 8051 microcontroller, coded in C. 
 
 <p align="center">
        <img src="https://i.imgur.com/zdGu81L.png" width="1000" height="700" align = center>
-       <p align="center"> <i>Alarm model in Proteus using 8051 microcontroller</i> </p>
 </p>
+
+## Collaboration
+
+- with [@MehmetAnil](https://github.com/MehmetAnil) 
