@@ -1,0 +1,6 @@
+C:\Users\Mehmet Anıl TAYSİ\Source\Repos\Proje2A1\Proje2A1\bin\Debug\Proje2A1.exe.config
+C:\Users\Mehmet Anıl TAYSİ\Source\Repos\Proje2A1\Proje2A1\bin\Debug\Proje2A1.exe
+C:\Users\Mehmet Anıl TAYSİ\Source\Repos\Proje2A1\Proje2A1\bin\Debug\Proje2A1.pdb
+C:\Users\Mehmet Anıl TAYSİ\Source\Repos\Proje2A1\Proje2A1\obj\Debug\Proje2A1.csprojAssemblyReference.cache
+C:\Users\Mehmet Anıl TAYSİ\Source\Repos\Proje2A1\Proje2A1\obj\Debug\Proje2A1.exe
+C:\Users\Mehmet Anıl TAYSİ\Source\Repos\Proje2A1\Proje2A1\obj\Debug\Proje2A1.pdb
