@@ -1,2 +1,2 @@
 # KNN
-KNN kullanılarak bitki türlerinin sınıflandırılması
+KNN algoritmasının implementasyonu.
