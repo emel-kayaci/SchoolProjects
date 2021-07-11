@@ -1,5 +1,8 @@
-# GenericAlgorithmLiftQueue
-Genetik algoritma kullanılarak turistlerin asansör bekleme sürelerinin optimize edilmesi
+# Generic Algorithm Lift Queue Project
 
-Collaboration with @MehmetAnil
+Optimizing the elevator waiting times of tourists using a genetic algorithm
+
+## Collaboration
+
+- with [@MehmetAnil](https://github.com/MehmetAnil) 
 
