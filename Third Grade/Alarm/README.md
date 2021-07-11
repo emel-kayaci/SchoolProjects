@@ -3,7 +3,7 @@
 Alarm program in Proteus using 8051 microcontroller, coded in C. 
 
 <p align="center">
-       <img src="https://i.imgur.com/KWSVB0f.jpg" width="800" height="600" align = center>
+       <img src="https://i.imgur.com/KWSVB0f.jpg" width="500" height="300" align = center>
 </p>
 
 ## Collaboration
