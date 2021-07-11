@@ -1,1 +1,1 @@
-# Coding some data structures in Java 
+Implementation of some data structures in Java.
