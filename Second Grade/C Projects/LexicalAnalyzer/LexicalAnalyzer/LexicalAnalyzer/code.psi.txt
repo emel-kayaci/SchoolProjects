@@ -1,0 +1,14 @@
+hi:=hello+25; (*addition *)
+HELLO++; (*increment*) (*Identifier ozelligi*)
+int i := [5 + 3 - 5 * 100 / (700-400)];
+while(int i) {
+	if(hello := 12345678910) { (*error*)
+		print("This is a string");
+	} else {
+		break;
+	}
+	i--;
+}
+
+char identifiernameisnotlongerthan_20_characters; (*error*)
+printf("String not terminates before end of file 
