@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\AlarmKod.obj" 
+TO ".\Objects\AlarmKod" 
+PRINT(".\Listings\AlarmKod.m51")

@@ -1,0 +1,424 @@
+C51 COMPILER V9.60.0.0   ALARMKOD                                                          07/07/2021 23:17:25 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE ALARMKOD
+OBJECT MODULE PLACED IN .\Objects\AlarmKod.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE AlarmKod.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\
+                    -AlarmKod.lst) TABS(2) OBJECT(.\Objects\AlarmKod.obj)
+
+line level    source
+
+   1          #include<reg51.h> 
+   2          
+   3          sbit dec=P2^5;
+   4          
+   5          sbit hour=P2^6;
+   6          sbit min=P2^7;
+   7          
+   8          sbit buzzer=P3^3;
+   9          
+  10          sbit day=P3^1;
+  11          
+  12          sbit month=P3^2;
+  13          sbit year=P3^4;
+  14          
+  15          
+  16          sbit rs=P2^1; //LCD command pini (lcd içindeki direnci secer)
+  17          sbit rw=P2^2; //LCD'ye bilgileri yazmak için kullanilan pin
+  18          sbit en=P2^3; //Tarihi ayarlamak icin kullanilan LCD command pini
+  19          
+  20          sfr lcddata=0x90; //P2=LCD veri pini
+  21          
+  22          sbit alarm=P3^7;
+  23          int button_flag;
+  24          int h,m,s,hA, mA, y,mo,d,y1,y2,y3,y4,mo1,mo2,d1,d2,h1,h2,h3,h4,m1,m2,m3,m4,s1,s2,i,j,k,space;
+  25          unsigned char con; //Alarm kontrol degiskeni
+  26          unsigned char array[]={'0','1','2','3','4','5','6','7','8','9'};
+  27          
+  28          
+  29          /*******************TIMER FONKSIYONU********************/
+  30          int z = 0;
+  31          void timer() {
+  32   1        TMOD = 0X01;
+  33   1        TH0 = 0XFC; // 1 ms'lik timer lar
+  34   1        TL0 = 0X18;
+  35   1        
+  36   1        // Interrupt
+  37   1        ET0 = 1;
+  38   1        EA = 1;
+  39   1        
+  40   1        TR0 = 1; //Timer start
+  41   1        
+  42   1        while(TF0 == 0); //Overflow kontrolü
+  43   1        TR0 = 0; //Timer stop
+  44   1        TF0 = 0; //Clear flag
+  45   1      }
+  46          
+  47          /*******************INTERRUPT SERVIS RUTINI********************/
+  48          void Timer0_ISR(void) interrupt 1
+  49          {
+  50   1        if(h==hA && m==mA && alarm==0) {
+  51   2          con=1;
+  52   2          buzzer=1;
+  53   2        }
+  54   1        else {
+C51 COMPILER V9.60.0.0   ALARMKOD                                                          07/07/2021 23:17:25 PAGE 2   
+
+  55   2          buzzer=0;
+  56   2          con=0;
+  57   2        }       
+  58   1        TF0 = 0; //clear interupt flag
+  59   1      }
+  60          
+  61          /******************LCD KOMUT FONKSIYONU***************/
+  62          void command(unsigned int  cmd) {
+  63   1        lcddata=cmd; //veri pinine veriler yüklenir
+  64   1        rs=0;
+  65   1        rw=0;
+  66   1        en=1;
+  67   1        timer();
+  68   1        en=0;
+  69   1      }
+  70          
+  71          /***************LCD GÖRÜNTÜLEME FONKSIYONU*******************/
+  72          void ldcdisplaydata(unsigned char s) {
+  73   1        lcddata=s;
+  74   1        rs=1;
+  75   1        rw=0;
+  76   1        en=1;
+  77   1        timer();
+  78   1        en=0;
+  79   1      }
+  80            
+  81          /***********************ANA PROGRAM***********************/
+  82          void main() {
+  83   1        
+  84   1      
+  85   1        command(0x38); //2 satir ve 5x7'lik matris icin LCD komutu
+  86   1        command(0x0c); 
+  87   1        command(0x06); //Cursor'i saga kaydirmak icin LCD komutu
+  88   1        y=2021; //baslangic tarihi
+  89   1        mo=7;
+  90   1        d=1;
+  91   1        button_flag = 0;
+  92   1        m=-1;
+  93   1        h=-1;
+  94   1        while(1) 
+  95   1        {
+  96   2          hA=0;
+  97   2          mA=1;
+  98   2          con=0;
+  99   2          
+ 100   2                for(s=0;s<=59;s++) { 
+ 101   3            
+ 102   3                  if(mo==1 || mo==3 || mo==5 || mo==7 || mo==8 || mo==10 || mo==12) {
+ 103   4                      d=31;
+ 104   4                    }   
+ 105   3                    else if(mo==2) {
+ 106   4                      if((y%4)==0) {
+ 107   5                        d=29;
+ 108   5                      } 
+ 109   4                      else {
+ 110   5                        d=28;
+ 111   5                      }
+ 112   4                    }
+ 113   3                    else {
+ 114   4                      d=30;
+ 115   4                    }
+ 116   3                    
+C51 COMPILER V9.60.0.0   ALARMKOD                                                          07/07/2021 23:17:25 PAGE 3   
+
+ 117   3                  if(s==0 && button_flag==0) { //dakikayi arttir
+ 118   4                    m++; 
+ 119   4                    if(m>59) { 
+ 120   5                      m=0;
+ 121   5                    }
+ 122   4                  }
+ 123   3                    
+ 124   3                   if(m==0 && s==0 && button_flag==0) { //saati arttir
+ 125   4                      h++; 
+ 126   4                      if(h==24) { 
+ 127   5                        h=0;
+ 128   5                      } 
+ 129   4                    }
+ 130   3                    
+ 131   3                    if(h==0 && m==0 && s==0 && button_flag==0) { //gunu arttir
+ 132   4                      i++;
+ 133   4                      if(i>d) {
+ 134   5                        i=1;
+ 135   5                      } 
+ 136   4                    }
+ 137   3      
+ 138   3                    if(h==0 && m==0 && s==0 && i==1 && button_flag==0) {
+ 139   4                      if(mo<12) {
+ 140   5                        mo++;
+ 141   5                      } else {
+ 142   5                        mo=1;
+ 143   5                      }
+ 144   4                    }
+ 145   3                    
+ 146   3                    button_flag=0;
+ 147   3                    if(alarm==0) {
+ 148   4                      
+ 149   4                      h3 = hA/10; //alarmda saati gostermek icin
+ 150   4                      h4 = hA%10;
+ 151   4                      
+ 152   4                      m3 = mA/10; //dakikayi gostermek icin
+ 153   4                      m4 = mA%10;
+ 154   4                      
+ 155   4                      command(0x94); //lcd ikinci satirin ilk pozisyonu
+ 156   4                      ldcdisplaydata('A');
+ 157   4                      ldcdisplaydata('L');
+ 158   4                      ldcdisplaydata('A');
+ 159   4                      ldcdisplaydata('R');
+ 160   4                      ldcdisplaydata('M');
+ 161   4                      ldcdisplaydata(':');
+ 162   4                      ldcdisplaydata(' ');
+ 163   4                      ldcdisplaydata(array[h3]);
+ 164   4                      ldcdisplaydata(array[h4]);
+ 165   4                      ldcdisplaydata(' ');
+ 166   4                      ldcdisplaydata(':');
+ 167   4                      ldcdisplaydata(' ');          
+ 168   4                      ldcdisplaydata(array[m3]);
+ 169   4                      ldcdisplaydata(array[m4]);
+ 170   4                   }  
+ 171   3                    else {
+ 172   4                      command(0x94); //lcd ikinci satirin ilk pozisyonu
+ 173   4                      for(space=1;space<=20;space++) {
+ 174   5                        ldcdisplaydata(' ');
+ 175   5                      }
+ 176   4                    }
+ 177   3            
+ 178   3                  if(alarm==0 && hour==0 && dec==1) { //alarm saatini arttirma
+C51 COMPILER V9.60.0.0   ALARMKOD                                                          07/07/2021 23:17:25 PAGE 4   
+
+ 179   4                    hA++;
+ 180   4                    if(hA==24) {
+ 181   5                      hA=0;
+ 182   5                    } 
+ 183   4                  }
+ 184   3                  
+ 185   3                  else if(alarm==0 && hour==0 && dec==0) { //alarm saatini azaltma
+ 186   4                    if(hA>0) {
+ 187   5                      hA--;  
+ 188   5                    } else {
+ 189   5                      hA=23;
+ 190   5                    }
+ 191   4                  }
+ 192   3                  
+ 193   3                  else if(alarm==0 && min==0 && dec==1) { //alarm dakikasini arttirma
+ 194   4                    mA++; 
+ 195   4                    if(mA>60) { //saati sifirla
+ 196   5                      mA=0;
+ 197   5                    }
+ 198   4                  } 
+ 199   3                  
+ 200   3                  else if(alarm==0 && min==0 && dec==0) { //alarm dakikasini azaltma
+ 201   4                    if(mA>0) {
+ 202   5                      mA--;  
+ 203   5                    } else {
+ 204   5                      mA=60;
+ 205   5                    }
+ 206   4                  }
+ 207   3            
+ 208   3                  y1 = y/1000;
+ 209   3                  j = y%1000;  //yili gostermek icin 
+ 210   3                  y2 = j/100;
+ 211   3                  k = j%100;
+ 212   3                  y3 = k/10;
+ 213   3                  y4 = k%10;
+ 214   3                        
+ 215   3                  mo1 = mo/10; //ayi gostermek icin 
+ 216   3                  mo2 = mo%10;
+ 217   3                        
+ 218   3                  d1 = i/10; //gunu gostermek icin
+ 219   3                  d2 = i%10;
+ 220   3                  
+ 221   3                  h1 = h/10; //saati gostermek icin
+ 222   3                  h2 = h%10;
+ 223   3                
+ 224   3                  m1 = m/10; //dakikayi gostermek icin
+ 225   3                  m2 = m%10;
+ 226   3              
+ 227   3                  s1 = s/10; //saniyeyi gostermek icin
+ 228   3                  s2 = s%10;
+ 229   3                        
+ 230   3                  command(0x80); //lcd'nin ilk satirda ilk pozisyonu
+ 231   3                  ldcdisplaydata('D');
+ 232   3                  ldcdisplaydata('A');
+ 233   3                  ldcdisplaydata('T');
+ 234   3                  ldcdisplaydata('E');
+ 235   3                  ldcdisplaydata(':');
+ 236   3                  ldcdisplaydata(' ');
+ 237   3                  ldcdisplaydata(array[d1]);
+ 238   3                  ldcdisplaydata(array[d2]);
+ 239   3                  ldcdisplaydata(' ');
+ 240   3                  ldcdisplaydata('-');
+C51 COMPILER V9.60.0.0   ALARMKOD                                                          07/07/2021 23:17:25 PAGE 5   
+
+ 241   3                  ldcdisplaydata(' ');          
+ 242   3                  ldcdisplaydata(array[mo1]);
+ 243   3                  ldcdisplaydata(array[mo2]);
+ 244   3                  ldcdisplaydata(' ');
+ 245   3                  ldcdisplaydata('-');
+ 246   3                  ldcdisplaydata(' ');    
+ 247   3                  ldcdisplaydata(array[y1]);
+ 248   3                  ldcdisplaydata(array[y2]);
+ 249   3                  ldcdisplaydata(array[y3]);
+ 250   3                  ldcdisplaydata(array[y4]);
+ 251   3                        
+ 252   3                  command(0xc0); //lcd ikinci satirin ilk pozisyonu
+ 253   3                  ldcdisplaydata('T');
+ 254   3                  ldcdisplaydata('I');
+ 255   3                  ldcdisplaydata('M');
+ 256   3                  ldcdisplaydata('E');
+ 257   3                  ldcdisplaydata(':');
+ 258   3                  ldcdisplaydata(' ');
+ 259   3                  ldcdisplaydata(array[h1]);
+ 260   3                  ldcdisplaydata(array[h2]);
+ 261   3                  ldcdisplaydata(' ');
+ 262   3                  ldcdisplaydata(':');
+ 263   3                  ldcdisplaydata(' ');          
+ 264   3                  ldcdisplaydata(array[m1]);
+ 265   3                  ldcdisplaydata(array[m2]);
+ 266   3                  ldcdisplaydata(' ');
+ 267   3                  ldcdisplaydata(':');
+ 268   3                  ldcdisplaydata(' ');
+ 269   3                  ldcdisplaydata(array[s1]);
+ 270   3                  ldcdisplaydata(array[s2]);
+ 271   3                  
+ 272   3      
+ 273   3                  if(con==1){
+ 274   4                    if(s%2==0){
+ 275   5                      command(0xE1);
+ 276   5                      ldcdisplaydata('A');
+ 277   5                      ldcdisplaydata('L');
+ 278   5                      ldcdisplaydata('A');
+ 279   5                      ldcdisplaydata('R');
+ 280   5                      ldcdisplaydata('M');
+ 281   5                    }
+ 282   4                    else{
+ 283   5                      command(0xE1);
+ 284   5                      ldcdisplaydata(' ');
+ 285   5                      ldcdisplaydata(' ');
+ 286   5                      ldcdisplaydata(' ');
+ 287   5                      ldcdisplaydata(' ');
+ 288   5                      ldcdisplaydata(' ');
+ 289   5                    }
+ 290   4                  }
+ 291   3                  else{
+ 292   4                      command(0xE1);
+ 293   4                      ldcdisplaydata(' ');
+ 294   4                      ldcdisplaydata(' ');
+ 295   4                      ldcdisplaydata(' ');
+ 296   4                      ldcdisplaydata(' ');
+ 297   4                      ldcdisplaydata(' ');
+ 298   4                  }
+ 299   3      
+ 300   3                  for (z = 0; z < 1000; z++) 
+ 301   3                  {
+ 302   4                    timer();
+C51 COMPILER V9.60.0.0   ALARMKOD                                                          07/07/2021 23:17:25 PAGE 6   
+
+ 303   4                  }   
+ 304   3                
+ 305   3                  if(alarm==1 && hour==0 && dec==1){ //saati arttirma
+ 306   4                    h++; 
+ 307   4                    s=-1; //saat ayarlandiktan sonra saniyeyi sifirlar
+ 308   4                    if(h==24) { //saati sifirla
+ 309   5                      h=0;
+ 310   5                      s=-1; 
+ 311   5                    }
+ 312   4                    button_flag=1;
+ 313   4                  }       
+ 314   3                  
+ 315   3                  else if(alarm==1 && hour==0 && dec==0) { //saati azaltma
+ 316   4                    if(h>0) {
+ 317   5                    h--; 
+ 318   5                    }else {
+ 319   5                      h=23;
+ 320   5                    }
+ 321   4                    s=-1;
+ 322   4                    button_flag=1;
+ 323   4                  }       
+ 324   3                  
+ 325   3                  else if(alarm==1 && min==0 && dec==1) { //dakikayi arttirma
+ 326   4                    m++; 
+ 327   4                    s=-1; //saat ayarlandiktan sonra saniyeyi sifirlar
+ 328   4                    if(m>59) { //saati sifirla
+ 329   5                    m=0;
+ 330   5                    s=-1; 
+ 331   5                    }
+ 332   4                    button_flag=1;
+ 333   4                  } 
+ 334   3              
+ 335   3                  else if(alarm==1 && min==0 && dec==0) { //dakikayi azaltma
+ 336   4                    if(m>0) {
+ 337   5                      m--; 
+ 338   5                    } else {
+ 339   5                      m=59;
+ 340   5                    }
+ 341   4                    s=-1; 
+ 342   4                    button_flag=1;
+ 343   4                  }
+ 344   3                  else if(day==0 && dec==1) { //gunleri arttirir
+ 345   4                    i++;
+ 346   4                    if(i>d) {
+ 347   5                      i=1;
+ 348   5                    }
+ 349   4                    button_flag=1;
+ 350   4                  }     
+ 351   3                  else if(day==0 && dec==0) { //gunleri azaltir
+ 352   4                    if(i>1) {
+ 353   5                      i--;
+ 354   5                    } else {
+ 355   5                      i=d;
+ 356   5                    }
+ 357   4                    button_flag=1;
+ 358   4                  }   
+ 359   3                  else if(month==0 && dec==1) { //aylari arttirir
+ 360   4                    i=1;
+ 361   4                    if(mo<12) {
+ 362   5                      mo++;
+ 363   5                    } else {
+ 364   5                      mo=1;
+C51 COMPILER V9.60.0.0   ALARMKOD                                                          07/07/2021 23:17:25 PAGE 7   
+
+ 365   5                    }
+ 366   4                    button_flag=1;
+ 367   4                  }   
+ 368   3                  else if(month==0 && dec==0) { //aylari azaltir
+ 369   4                    i=1;
+ 370   4                    if(mo>1) {
+ 371   5                      mo--;
+ 372   5                    } else{
+ 373   5                      mo=12;
+ 374   5                    }
+ 375   4                    button_flag=1;
+ 376   4                  } 
+ 377   3                  else if(year==0 && dec==1) { //yili arttirir
+ 378   4                    y++;
+ 379   4                    button_flag=1;
+ 380   4                  } 
+ 381   3                  else if(year==0 && dec==0) { //yili azaltir
+ 382   4                    y--;
+ 383   4                    button_flag=1;
+ 384   4                  } 
+ 385   3              }
+ 386   2                    
+ 387   2            }
+ 388   1          }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1754    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     75    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
