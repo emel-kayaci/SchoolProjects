@@ -3,7 +3,7 @@
 Desktop app (made with Tkinter) to visualize different image processing operations. 
 
 <p align="center">
-       <img src="https://i.ibb.co/9ynndZg/Ekran-Al-nt-s.png" width="470" height="550" align = center>
+       <img src="https://im5.ezgif.com/tmp/ezgif-5-93dbc4cc06.gif" width="470" height="550" align = center>
        <p align="center"> <i>Relational schema with referential integrity rules</i> </p>
 </p>
 
