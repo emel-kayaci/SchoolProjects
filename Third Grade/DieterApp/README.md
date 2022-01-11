@@ -1,5 +1,5 @@
 # DieterApp
-Desktop application for dieticians and dieters
+Desktop application for dieticians and dieters using MSSQL 
 
 <p align="center">
        <img src="https://im6.ezgif.com/tmp/ezgif-6-8728d86fa0.gif" width="500" height="500" align = center>
