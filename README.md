@@ -25,5 +25,6 @@
 ## Fourth Grade
 
 - [Image Processing App](https://github.com/emel-kayaci/UniversityProjects/tree/main/Fourth%20Grade/ImageProcessingApp)
-  
+ 
+- [Emotion Detection App](https://github.com/emel-kayaci/UniversityProjects/blob/main/Fourth%20Grade/EmotionDetectionApp)
   
