@@ -21,7 +21,7 @@
 
 - [Dieter Desktop App](https://github.com/emel-kayaci/UniversityProjects/tree/main/Third%20Grade/DieterApp)
 
-- [Turkish Movie Comments Sentiment Analysis] (https://github.com/emel-kayaci/UniversityProjects/tree/main/Third%20Grade/TurkishMovieSentimentAnalysis)
+- [Turkish Movie Comments Sentiment Analysis](https://github.com/emel-kayaci/UniversityProjects/tree/main/Third%20Grade/TurkishMovieSentimentAnalysis)
 
 
 ## Fourth Grade
