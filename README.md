@@ -23,6 +23,8 @@
 
 - [Turkish Movie Comments Sentiment Analysis](https://github.com/emel-kayaci/UniversityProjects/tree/main/Third%20Grade/TurkishMovieSentimentAnalysis)
 
+- [Kaggle Survey EDA](https://github.com/emel-kayaci/UniversityProjects/tree/main/Third%20Grade/KaggleSurveyEDA)
+
 
 ## Fourth Grade
 
