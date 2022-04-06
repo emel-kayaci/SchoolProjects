@@ -2,11 +2,7 @@
 
 Collab notebook with emotion detection using CNN. 
 
-<p align="center">
-       <img src= "https://media.giphy.com/media/ype0boAL2UIHawTuu0/giphy.gif" width="400" height="350" align = center>
-       <p align="center"> <i>Running program</i> </p>
-</p>
-
 ## Collaboration
+![Examples from the program](https://user-images.githubusercontent.com/43893190/161914310-f4a36874-3e14-4129-b445-460200eee444.gif)
 
 - with [@MehmetAnil](https://github.com/MehmetAnil) 
