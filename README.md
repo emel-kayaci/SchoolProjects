@@ -32,9 +32,3 @@
  
 - [Emotion Detection App](https://github.com/emel-kayaci/UniversityProjects/blob/main/Fourth%20Grade/EmotionDetectionApp)
 
-## Notes
-
-- [Data Mining Part 1](https://github.com/emel-kayaci/UniversityProjects/blob/main/Notes/DataMining%C3%96zet1.pdf)
-
-- [Data Mining Part 2](https://github.com/emel-kayaci/UniversityProjects/blob/main/Notes/DataMining%C3%96zet2.pdf)
-  
