@@ -1,6 +1,3 @@
 ## Airline Database Model
 
-<p align="center">
-       <img src="https://i.imgur.com/i7E6J2w.png" width="800" height="1000" align = center>
-       <p align="center"> <i>Relational schema with referential integrity rules</i> </p>
-</p>
+![Relational schema with referential integrity rules](https://user-images.githubusercontent.com/43893190/161914576-c9ad53d9-ec8e-4d8d-8d80-0a0fb23a6d1e.png)
